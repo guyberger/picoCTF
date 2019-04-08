@@ -1,0 +1,14 @@
+
+
+Steps:
+
+1. To convert a base10 number to base2 we can use python again with the command 'bin(27)'.
+	notice this will result in '0b11011'. 
+
+2. We need to string the '0b' which signifies the binary base for the flag. To do this we can use the slicing function of python:
+	'0b11011'[2:] ==> '11011'	#slices from the third index of the string to the end.	
+
+
+PROTIP: to make the answer shorter, we can use a bash and python command line which does the same:
+
+	echo "${python -c "print(bin(27)[2:]"}"	==> '11011'

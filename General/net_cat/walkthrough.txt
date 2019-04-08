@@ -1,0 +1,7 @@
+
+
+From linux man page: nc - arbitrary TCP and UDP connections and listens
+
+Steps:
+
+1. run command 'nc 2018shell.picoctf.com 36356' to see the flag

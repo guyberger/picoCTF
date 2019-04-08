@@ -1,0 +1,8 @@
+
+
+This question is pretty straight forward if you are familiar with bash commands.
+grep is a command that finds a string in a given file. The default method will print the line in which the given string appears in the file.
+
+Steps:
+
+1. Use the command 'grep "picoCTF" file' to get the flag.

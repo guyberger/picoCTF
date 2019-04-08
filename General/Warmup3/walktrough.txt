@@ -1,0 +1,8 @@
+
+
+Steps:
+
+1. very similar to previous ones, convert using the command:
+	python -c "print(int('0x3D', 16))"
+
+

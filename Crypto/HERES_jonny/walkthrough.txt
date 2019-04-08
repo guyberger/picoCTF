@@ -1,0 +1,19 @@
+
+
+Linux has a /etc/passwd file that stores passwords. To make things safer, we use a shadow file that can only be accessed with root privillages. the passwd will contain x as the password, and the shadow will contain an ecrypted password for that user.
+
+In this ctf excercise we get a passwd file and a shadow, so we need to decrypt the password.
+
+Here is a method to decrypt the password using John The Ripper.
+
+Steps:
+
+1. install 'john the ripper' password cracker from github: https://github.com/magnumripper/JohnTheRipper
+
+2. run 'unshadow' to prepare a file to be run by 'john'.
+
+3. using the file run './john filename' to decrypt the password.
+
+4. run './john --show filename' to view the password.
+
+5. we can see from the file passwd/shadow that we are trying to access root user. 'nc' to the given shell and login as root with the decrypted password to find the flag.

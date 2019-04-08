@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. Download zip file via command wget from terminal or from browser.
+2. Extract zip file via command unzip.
+3. Open picture to see the flag (xdg-open).

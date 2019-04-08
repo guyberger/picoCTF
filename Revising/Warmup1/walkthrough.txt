@@ -1,0 +1,12 @@
+
+
+Steps:
+
+1. Download the program using wget.
+
+2. Notice we don't have permission to run the file './run'. To add executable permission we use the command "chmod +x run".
+
+3. Run the file to get the flag: "./run".
+
+Note: on 64-bit Linux you will need to add i386 architecture since 'run' is a 32-bit executable.
+	 reference: https://askubuntu.com/questions/454253/how-to-run-32-bit-app-in-ubuntu-64-bit

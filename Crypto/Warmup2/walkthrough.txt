@@ -1,0 +1,20 @@
+
+
+In this one we use rot13 encryption to decrypt the given string.
+rot13 changes char of "abc..zABC..Z" to it's location +13 (cyclic), so for example 'e' becomes 'r'.
+
+Steps:
+
+1. The switch can be done using a bash command called 'tr'.
+
+	tr explaination: https://en.wikipedia.org/wiki/Tr_%28Unix%29
+
+2. To decrypt the flag: echo "string_to_decrypt" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+
+
+
+PROTIP: We can use the command 'alias' to define an alias for rot13:
+	> alias rot13 = "tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+	> echo "string_to_decrypt" | rot13
+

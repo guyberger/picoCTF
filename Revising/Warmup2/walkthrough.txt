@@ -1,0 +1,8 @@
+
+
+We get a string and asked to decode it to base 64.
+Luckily, there is a python library to do this for us: base64.
+
+Steps:
+
+1. We create a python script to decode the string in base 64 (see solve.py)

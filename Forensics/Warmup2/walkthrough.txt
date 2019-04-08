@@ -1,0 +1,8 @@
+
+
+Steps:
+
+1. Download the PNG file.
+2. Notice here we cannot open the file and openning xdg-open the warning says NOT A PNG FILE. run command 'file flag.png' to see the file's details.
+3, 'file' command reveals the photo is of type JPEG.
+4. 'cp flag.png flag.JPEG' to see the right image.

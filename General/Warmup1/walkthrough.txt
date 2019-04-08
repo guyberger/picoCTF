@@ -1,0 +1,10 @@
+
+
+Here we need to convert Hex number (begins with prefix 0x to symbolize Hex) into ASCII value.
+To do this we can use python CLI to convert easily using the command using ipython:
+
+0x41
+
+We get 65 which is the ASCII value of 0x41, since we need the string value we can do:
+
+chr(0x41)
