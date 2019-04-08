@@ -1,0 +1,9 @@
+
+
+Steps:
+
+1. Open the html page from the link in your browser/ from linux *using 'curl' for example).
+
+2. Notice a comment with 1/3 of the flag when you "inspect" the code (or view the code in the terminal).
+
+3. Get the 2 other parts by navigating to the css and js sources as mentioned in the <head>

@@ -1,0 +1,9 @@
+
+
+Use 'man grep' to learn about 'grep' use options.
+
+Steps:
+
+1. open the shell and navigate to the folder's location.
+
+2. use 'grep picoCTF -r' with the -r flag to recursively search the expression inside all the files of the folders.

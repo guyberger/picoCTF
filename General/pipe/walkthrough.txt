@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. 'nc' to the given shell, and forward the input to a text file.
+
+2. grep picoCTF from the textfile and pipe it (using | ) to the flag.txt

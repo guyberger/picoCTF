@@ -1,0 +1,9 @@
+
+
+In this questions we use the shell command 'strings' to display all the strings found in a file.
+
+Steps:
+
+1. 'strings strings' will print all the strings found in the file 'strings'.
+
+2. use 'grep "picoCTF" ' to print only the line containing the flag.
