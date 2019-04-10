@@ -8,5 +8,5 @@ Architecture: x86-64
 
 Extras:
 
-- I use MobaXtreme to ssh, Vim editor for all the files.
+- I use MobaXtrem to ssh, Vim editor for all the files.
 - makeFlag.py accepts 1 argument FLAG and wraps it as "picoCTF{FLAG}" (picoCTF submission format).
