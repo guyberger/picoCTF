@@ -1,0 +1,13 @@
+
+
+Steps:
+
+1. open the website to see that any user can log in except for the admin, password required.
+
+2. check the cookie attributes: in chrome this is found in developer tools -> application.
+
+3. to edit the coockie you can use a program or simply use chrome's dev tools -> console to define your own cookie in the website:
+
+	document.cookie = "admin=True; username=a; password=a";
+
+4. refresh the page to see the flag.

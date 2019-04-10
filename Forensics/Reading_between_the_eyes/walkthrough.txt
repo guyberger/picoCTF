@@ -1,0 +1,7 @@
+
+
+Resources: zsteg, install: 'gem install zsteg'
+
+Steps:
+
+1. [steganography] hidden texts in images using bit manipulations. to uncover run 'zsteg husky.png'

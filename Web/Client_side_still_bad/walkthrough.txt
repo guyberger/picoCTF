@@ -1,0 +1,7 @@
+
+
+Pretty straight forward.
+
+Steps:
+
+1. Inspect the html to see the echk function methods which compare substrings from the input with given strings which combined are the flag...

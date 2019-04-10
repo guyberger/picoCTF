@@ -1,0 +1,18 @@
+
+
+There are few bugs with the server but overall this was a nice touch.
+
+Steps:
+
+1. after connecting to the remote shell we are welcomed and are being told to "hurry up" before system will shut down. They are not joking it shuts down...
+	first things first we can use 'ls' to see what we are dealing with.
+
+2. going through the folders we allowed to see, we can go into the folder 'secret' to find some intel files we need to delete, using 'rm intel_*' to delete all of them.
+
+3. next we are instructed to move to executables folder and then run the script there.
+
+4. we are asked to print the current user name which can be done using the bash command 'whoami'.
+
+5. finally there is a hidden folder apparently called tmp. we move to the root folder and 'mv /tmp/TopSecret passwords'.
+
+6. reed TopSecret from passwords folder to get the flag.

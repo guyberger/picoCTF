@@ -1,0 +1,20 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Apr 10 11:32:23 2019
+Invocation: foremost 
+Output directory: /home/guy/Documents/picoCTF/Forensics/Recovering_from_snap/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: stdin
+Start: Wed Apr 10 11:32:23 2019
+Length: Unknown
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Wed Apr 10 11:32:24 2019

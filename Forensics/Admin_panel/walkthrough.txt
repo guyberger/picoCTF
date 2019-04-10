@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. use wireshark to open the pcap file which contains specific web traffic details
+
+2. in wireshark GUI we can see several handshakes traffic as well as requests such as login request. one of them contains an admin login request with the password as the flag.

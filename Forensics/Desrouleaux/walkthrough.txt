@@ -1,0 +1,15 @@
+
+
+Steps:
+
+1. connect to remote shell and download the .json file. I use tmux to split screen so i can view/work with the file while also being on the shell.
+
+2. to gather all the required informaton you can either: 
+	-read the file and gather data.
+	-use bash commands to find info quickly. Yeah lets do this one.
+
+3. to find the most popular src_ip: 
+	'cat incidents.json | grep src_ip | sort | uniq -c
+
+4. to find the file info:
+	'cat incidents.json | grep file | sort | uniq -c

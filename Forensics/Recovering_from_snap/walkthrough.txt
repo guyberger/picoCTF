@@ -1,0 +1,16 @@
+
+
+Guide on dd - https://en.wikipedia.org/wiki/Dd_(Unix)#Data_recovery
+In this challenge we use some tools to recover the deleted data from the drive (images.dd)
+
+Resources:
+
+1. photorec - recover images from .dd
+2. tesseract - an OCR tool to extract the flag from the image, https://github.com/tesseract-ocr/tesseract
+
+Steps:
+
+1. 'photorec images.dd'
+
+2. 'tesseract <image_of_flag> flag.txt'
+
