@@ -1,0 +1,12 @@
+
+
+Caesar Cypther - Each letter in the 'abc..' is encrypted as the letter + some delta.
+	As an example the string "hi" with delta 2 will be encrypted as "jk".
+
+Steps:
+
+1. Enter the text in cyphertext file to an online CC decryptor to find the flag.
+
+OR
+
+1. Write/Use provided python script to decode the text.

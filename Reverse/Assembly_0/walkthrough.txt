@@ -1,0 +1,32 @@
+Explanation:
+
+.intel_syntax noprefix
+.bits 32
+	
+.global asm0	;defining a label
+
+asm0:
+	push	ebp				;push base of the calling func to the stack
+	mov	ebp,esp				;moves new base in esp to ebp
+	mov	eax,DWORD PTR [ebp+0x8]		;move content of the stack + 8 bytes (0xaa)
+	mov	ebx,DWORD PTR [ebp+0xc]		;move content of the stack + 12 bytes (0xf2)
+	mov	eax,ebx				;move ebx to eax => now eax has 0xf2
+	mov	esp,ebp				;move back the sp to the base of the func
+	pop	ebp				
+	ret
+
+Stack view:
+
+	|	   	 		     | lower addresses	
+	|____________________________________|
+	|     old ebp (func base pointer)    |
+	|____________________________________|
+	|return address from calling function|   /\
+	|____________________________________|  /  \
+	|		0xf2		     |	 ||
+	|____________________________________|   ||
+	|		0xaa		     |
+	|____________________________________|
+	|				     | higher addresses
+
+
