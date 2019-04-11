@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. to see the hex dump of the file we can use 'xxd'.
+
+2. From the dump you can easily see the string of the flag.

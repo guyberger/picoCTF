@@ -1,0 +1,13 @@
+
+
+SQL injection
+
+Steps:
+
+1. Open the site and navigate to the login panel.
+
+2. Looking at the source code we find a hidden field called 'debug' with value set to 0.
+2.1 changing this field to 1 will result in "debug mode" which will cause a print of the sql query in the login window (could guess w/o debugging).
+
+3. To log into the system without the need to figure out a password we can query: aaa' OR 1=1 ;--
+

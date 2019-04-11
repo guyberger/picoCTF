@@ -1,0 +1,5 @@
+
+
+Steps:
+
+1. To see all env variables use: 'env' command.
