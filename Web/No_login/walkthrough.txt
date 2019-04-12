@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. To get admin privilleges we need to "appear" to the server as admins. one way to do it so to play around with the site's cookie.
+
+	change cookie: 'document.cookie="admin=True";' in the console window.

@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. Go to /robots.txt
+
+2. Go to the given extension to find the flag.
