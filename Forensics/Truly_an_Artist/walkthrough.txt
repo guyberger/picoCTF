@@ -1,0 +1,5 @@
+
+
+Steps:
+
+1. Look at the metadata of the png file using 'zsteg 2018.png'

@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. To change User Agent - https://winaero.com/blog/change-user-agent-chrome/
+
+2. Change to a google bot agent to get the flag.
