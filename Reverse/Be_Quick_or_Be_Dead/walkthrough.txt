@@ -1,0 +1,18 @@
+
+
+Guidelines:
+
+1. In this excercise we get a program that mentions we need a faster computer.
+Using IDA we see that there is a function called set_timer which sets a stop clock for 
+1 second or so and when the clock ends the signal activates an alarm which causes the program to
+exit. To bypass that we can either: patch the file and remove the function/ bypass using GDB.
+
+Steps:
+
+1. Using gdb we set a breakpoint just before the function call to 'set_timer'.
+
+2. Then we can simply set the pc register to the command just after the call so 
+	that we dont perform the function (it is possible since the function has no effect on the actual code
+	except for exiting) - 'set $rip = <address of next instruction>'
+
+3. conitnue execution using gdb to get the flag.

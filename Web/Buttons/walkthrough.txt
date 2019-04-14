@@ -1,0 +1,7 @@
+
+
+Steps:
+
+1. First button send a form POST reuest to the server while the second button is a direct href to the page.
+
+	since the first button successfully delivers, we can simply change the action to be 'button2.php'
