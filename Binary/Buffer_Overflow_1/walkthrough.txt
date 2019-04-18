@@ -1,0 +1,14 @@
+
+
+Steps:
+
+1. Opening the .c file we see that we should try to reach win().
+
+2. To do so we overflow the buffer to run over the original return address.
+
+3. By trying some inputs we discover that the 4 bytes after 44 regular chars ('a' for example)
+	will start to run over the return address.
+
+4. To get win's address we can use either pwn package or using gdb: 'info address win".
+
+5. To get the flag: python -c "from pwn import *; print 'a' * 44 + '\xcb\x85\x04\x08'" | ./vuln 

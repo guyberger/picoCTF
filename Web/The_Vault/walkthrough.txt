@@ -1,0 +1,8 @@
+
+
+Steps:
+
+From looking at login.txt from the source code, we quickly spot the blacklist - which is a collection
+of forbidden patterns to filter bad input (in case of an SQLi).
+Luckily, ';-- is available for use, so we can actually login by typing: admin';-- 
+in the username field.
