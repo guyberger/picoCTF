@@ -1,0 +1,5 @@
+
+
+Steps:
+
+1. use an online tool for the substitution encryption with hint 'qgmtMNB=picoCTF': https://quipqiup.com/

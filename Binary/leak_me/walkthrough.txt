@@ -1,0 +1,17 @@
+
+
+This time we overflowing the password field will get us no where since the code puts 
+'0' in the end of the input correct size and so strcmp is not gonna return 0 unless we know the password...
+
+However, the function fgets of 'name' is not used securely, we can overflow 'name' buffer to run over the 'password'
+buffer. Afterwards the code writes out the actual password to the password buffer and the function puts writes out
+the fake name we put => however, the length of the name is long enough to cover also the bytes of the password buffer.
+
+Since we overridden the 'password' buffer before the program put the actual password on it, when puts is called 
+it's going to print the password aswell.
+
+Steps:
+
+1. Insert ~320 chars of 'a' (could be anything really...) as a name to reveal the password.
+
+2. nc again and insert the password to reveal the flag.

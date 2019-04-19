@@ -1,0 +1,6 @@
+
+
+Steps:
+
+1. Using gimp (photo & graphics editing) we can play with the saturation filter to see the hidden flag.
+	> gimp NowYouDont.png
